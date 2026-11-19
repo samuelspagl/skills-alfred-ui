@@ -1,0 +1,10 @@
+{
+  "update": {
+    "relayout": true,
+    "ids": {
+      "heading": {
+        "text": "Updated heading"
+      }
+    }
+  }
+}

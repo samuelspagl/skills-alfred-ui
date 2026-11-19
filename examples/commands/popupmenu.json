@@ -1,0 +1,25 @@
+{
+  "popupmenu": {
+    "src": "menuAnchor",
+    "menu": [
+      {
+        "text": "Speak",
+        "action": {
+          "type": "json",
+          "src": {
+            "speak": {
+              "text": "Menu selected"
+            }
+          }
+        }
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "text": "Status",
+        "state": "on"
+      }
+    ]
+  }
+}

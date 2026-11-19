@@ -1,0 +1,44 @@
+{
+  "bundleid": "example.alfredui.templates",
+  "window": {
+    "title": "Templates",
+    "padding": 12,
+    "size": {
+      "width": 640,
+      "height": 420
+    },
+    "root": {
+      "type": "view",
+      "layout": "inline",
+      "components": [
+        {
+          "type": "template",
+          "src": "status",
+          "params": {
+            "caption": "Queued"
+          },
+          "id": "queued"
+        },
+        {
+          "type": "template",
+          "src": "status",
+          "params": {
+            "caption": "Completed"
+          },
+          "id": "completed"
+        }
+      ],
+      "direction": "vertical",
+      "spacing": 8
+    }
+  },
+  "templates": {
+    "status": {
+      "type": "label",
+      "text": "{param:caption}",
+      "font": {
+        "weight": "semibold"
+      }
+    }
+  }
+}

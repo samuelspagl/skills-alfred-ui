@@ -1,0 +1,123 @@
+{
+  "bundleid": "example.alfredui.browser",
+  "window": {
+    "title": "Browser",
+    "padding": 12,
+    "size": {
+      "width": 640,
+      "height": 420
+    },
+    "root": {
+      "type": "view",
+      "layout": "border",
+      "components": [
+        {
+          "type": "view",
+          "layout": "inline",
+          "components": [
+            {
+              "type": "button",
+              "text": "Back",
+              "events": [
+                {
+                  "triggers": "actioned",
+                  "action": {
+                    "type": "function",
+                    "src": "web",
+                    "args": "back"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "button",
+              "text": "Forward",
+              "events": [
+                {
+                  "triggers": "actioned",
+                  "action": {
+                    "type": "function",
+                    "src": "web",
+                    "args": "forward"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "button",
+              "text": "Reload",
+              "events": [
+                {
+                  "triggers": "actioned",
+                  "action": {
+                    "type": "function",
+                    "src": "web",
+                    "args": "reload"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "textfield",
+              "id": "address",
+              "text": "https://www.alfredapp.com",
+              "events": [
+                {
+                  "triggers": "actioned",
+                  "action": {
+                    "type": "json",
+                    "src": {
+                      "update": {
+                        "ids": {
+                          "web": {
+                            "src": "{var:url}"
+                          }
+                        }
+                      }
+                    },
+                    "variables": {
+                      "url": "{value:self.text}"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "spacing": 6,
+          "constraints": {
+            "region": "top"
+          }
+        },
+        {
+          "type": "webkitview",
+          "id": "web",
+          "src": "https://www.alfredapp.com",
+          "events": [
+            {
+              "triggers": "changed",
+              "action": {
+                "type": "json",
+                "src": {
+                  "update": {
+                    "ids": {
+                      "address": {
+                        "text": "{var:url}"
+                      }
+                    }
+                  }
+                },
+                "variables": {
+                  "url": "{value:self.src}"
+                }
+              }
+            }
+          ],
+          "constraints": {
+            "region": "centre"
+          }
+        }
+      ],
+      "spacing": 8
+    }
+  }
+}

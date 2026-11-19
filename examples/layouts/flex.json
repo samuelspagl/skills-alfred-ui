@@ -1,0 +1,31 @@
+{
+  "type": "view",
+  "layout": "flex",
+  "components": [
+    {
+      "type": "label",
+      "text": "First",
+      "constraints": {
+        "grid": {
+          "row": 0,
+          "col": 0,
+          "colweight": 0.5
+        }
+      }
+    },
+    {
+      "type": "label",
+      "text": "Second",
+      "constraints": {
+        "grid": {
+          "row": 0,
+          "col": 1,
+          "colweight": 0.5
+        }
+      }
+    }
+  ],
+  "padding": 8,
+  "rows": 1,
+  "cols": 2
+}

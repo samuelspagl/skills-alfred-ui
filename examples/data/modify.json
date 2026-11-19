@@ -1,0 +1,23 @@
+{
+  "update": {
+    "ids": {
+      "places": {
+        "data": {
+          "modify": {
+            "insert": {
+              "position": "after",
+              "uid": "coast",
+              "src": [
+                {
+                  "uid": "park",
+                  "name.text": "Park",
+                  "kind.text": "Outdoor"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

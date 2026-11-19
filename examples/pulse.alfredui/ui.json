@@ -1,0 +1,46 @@
+{
+  "bundleid": "example.alfredui.pulse",
+  "window": {
+    "title": "Pulse",
+    "padding": 12,
+    "size": {
+      "width": 640,
+      "height": 420
+    },
+    "root": {
+      "type": "view",
+      "layout": "inline",
+      "components": [
+        {
+          "type": "label",
+          "id": "clock",
+          "text": "Waiting for a pulse"
+        },
+        {
+          "type": "button",
+          "text": "Stop",
+          "events": [
+            {
+              "triggers": "actioned",
+              "action": {
+                "type": "json",
+                "src": {
+                  "pulse": {
+                    "interval": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "spacing": 8
+    }
+  },
+  "pulse": {
+    "src": "scripts/tick.sh",
+    "interval": 1,
+    "intervalmode": "delay"
+  }
+}

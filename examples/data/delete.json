@@ -1,0 +1,18 @@
+{
+  "update": {
+    "ids": {
+      "places": {
+        "data": {
+          "modify": {
+            "delete": {
+              "uids": [
+                "library"
+              ],
+              "autoselect": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

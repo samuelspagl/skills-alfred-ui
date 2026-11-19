@@ -1,0 +1,4176 @@
+{
+  "snapshot_date": "2026-11-19",
+  "status": "Independent factual inventory; not an official Alfred schema",
+  "pages": [
+    {
+      "key": "actions--json--copy",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/copy/",
+      "title": "copy Action",
+      "properties": [
+        {
+          "path": "type",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"text\""
+          ],
+          "enum": [
+            "\"text\"",
+            "\"file\"",
+            "\"url\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/copy/#property-type"
+        },
+        {
+          "path": "src",
+          "section": "Properties",
+          "declaration": [
+            "STRING | ARRAY",
+            "Required"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/copy/#property-src"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--finish",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/finish/",
+      "title": "finish Action",
+      "properties": [
+        {
+          "path": "flattenarrayargs",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/finish/#property-flattenarrayargs"
+        },
+        {
+          "path": "args",
+          "section": "Properties",
+          "declaration": [
+            "STRING | ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/finish/#property-args"
+        },
+        {
+          "path": "variables",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/finish/#property-variables"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--functions",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/functions/",
+      "title": "functions Action",
+      "properties": [
+        {
+          "path": "ids",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/functions/#property-ids"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--insert",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/insert/",
+      "title": "insert Action",
+      "properties": [
+        {
+          "path": "ids",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/insert/#property-ids"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--notification",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/notification/",
+      "title": "notification Action",
+      "properties": [
+        {
+          "path": "post",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT | ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/notification/#property-post"
+        },
+        {
+          "path": "post.uid",
+          "section": "Properties",
+          "declaration": [
+            "STRING",
+            "Default: A random UUID"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/notification/#property-post-uid"
+        },
+        {
+          "path": "post.title",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/notification/#property-post-title"
+        },
+        {
+          "path": "post.text",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/notification/#property-post-text"
+        },
+        {
+          "path": "remove",
+          "section": "Properties",
+          "declaration": [
+            "STRING | ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/notification/#property-remove"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--open",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/open/",
+      "title": "open Action",
+      "properties": [
+        {
+          "path": "type",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Required"
+          ],
+          "enum": [
+            "\"file\"",
+            "\"url\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/open/#property-type"
+        },
+        {
+          "path": "src",
+          "section": "Properties",
+          "declaration": [
+            "STRING | ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/open/#property-src"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--opendialog",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/opendialog/",
+      "title": "opendialog Action",
+      "properties": [
+        {
+          "path": "canchoosefiles",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/opendialog/#property-canchoosefiles"
+        },
+        {
+          "path": "canchoosefolders",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/opendialog/#property-canchoosefolders"
+        },
+        {
+          "path": "filetypes",
+          "section": "Properties",
+          "declaration": [
+            "ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/opendialog/#property-filetypes"
+        },
+        {
+          "path": "folder",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/opendialog/#property-folder"
+        },
+        {
+          "path": "prompt",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/opendialog/#property-prompt"
+        },
+        {
+          "path": "message",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/opendialog/#property-message"
+        },
+        {
+          "path": "multiselect",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/opendialog/#property-multiselect"
+        },
+        {
+          "path": "setvariable",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/opendialog/#property-setvariable"
+        },
+        {
+          "path": "action",
+          "section": "Properties",
+          "declaration": [
+            "ACTION | ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/opendialog/#property-action"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--popupmenu",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/popupmenu/",
+      "title": "popupmenu Action",
+      "properties": [
+        {
+          "path": "src",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/popupmenu/#property-src"
+        },
+        {
+          "path": "menu",
+          "section": "Properties",
+          "declaration": [
+            "MENU"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/popupmenu/#property-menu"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--remove",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/remove/",
+      "title": "remove Action",
+      "properties": [
+        {
+          "path": "ids",
+          "section": "Properties",
+          "declaration": [
+            "STRING | ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/remove/#property-ids"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--replace",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/replace/",
+      "title": "replace Action",
+      "properties": [
+        {
+          "path": "retainids",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/replace/#property-retainids"
+        },
+        {
+          "path": "ids",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/replace/#property-ids"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--share",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/share/",
+      "title": "share Action",
+      "properties": [
+        {
+          "path": "type",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Required"
+          ],
+          "enum": [
+            "\"file\"",
+            "\"url\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/share/#property-type"
+        },
+        {
+          "path": "src",
+          "section": "Properties",
+          "declaration": [
+            "STRING | ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/share/#property-src"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--sheet",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/sheet/",
+      "title": "sheet Action",
+      "properties": [
+        {
+          "path": "id",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/sheet/#property-id"
+        },
+        {
+          "path": "close",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/sheet/#property-close"
+        },
+        {
+          "path": "closeonescape",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/sheet/#property-closeonescape"
+        },
+        {
+          "path": "root",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/sheet/#property-root"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--sound",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/sound/",
+      "title": "sound Action",
+      "properties": [
+        {
+          "path": "src",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/sound/#property-src"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--speak",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/speak/",
+      "title": "speak Action",
+      "properties": [
+        {
+          "path": "text",
+          "section": "Properties",
+          "declaration": [
+            "STRING",
+            "Required"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/speak/#property-text"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--update",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/update/",
+      "title": "update Action",
+      "properties": [
+        {
+          "path": "relayout",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/update/#property-relayout"
+        },
+        {
+          "path": "ids",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/update/#property-ids"
+        }
+      ]
+    },
+    {
+      "key": "actions--json--window",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/window/",
+      "title": "window Action",
+      "properties": [
+        {
+          "path": "resize",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/window/#property-resize"
+        },
+        {
+          "path": "resize.width",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER | \"auto\""
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/window/#property-resize-width"
+        },
+        {
+          "path": "resize.height",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER | \"auto\""
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/window/#property-resize-height"
+        }
+      ]
+    },
+    {
+      "key": "actions--json",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/",
+      "title": "JSON Actions",
+      "properties": [
+        {
+          "path": "variables",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-variables"
+        },
+        {
+          "path": "pulse",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-pulse"
+        },
+        {
+          "path": "remove",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-remove"
+        },
+        {
+          "path": "insert",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-insert"
+        },
+        {
+          "path": "update",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-update"
+        },
+        {
+          "path": "replace",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-replace"
+        },
+        {
+          "path": "sheet",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-sheet"
+        },
+        {
+          "path": "share",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-share"
+        },
+        {
+          "path": "sound",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-sound"
+        },
+        {
+          "path": "speak",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-speak"
+        },
+        {
+          "path": "copy",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-copy"
+        },
+        {
+          "path": "open",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-open"
+        },
+        {
+          "path": "opendialog",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-opendialog"
+        },
+        {
+          "path": "window",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-window"
+        },
+        {
+          "path": "notification",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-notification"
+        },
+        {
+          "path": "functions",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-functions"
+        },
+        {
+          "path": "popupmenu",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-popupmenu"
+        },
+        {
+          "path": "finish",
+          "section": "JSON Action Commands",
+          "declaration": [
+            "JSON ACTION",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/json/#property-finish"
+        }
+      ]
+    },
+    {
+      "key": "actions",
+      "url": "https://www.alfredapp.com/help/alfredui/actions/",
+      "title": "Actions",
+      "properties": [
+        {
+          "path": "type",
+          "section": "action Object",
+          "declaration": [
+            "ENUM",
+            "Required"
+          ],
+          "enum": [
+            "\"log\"",
+            "\"script\"",
+            "\"json\"",
+            "\"function\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/#property-type"
+        },
+        {
+          "path": "src",
+          "section": "action Object",
+          "declaration": [
+            "STRING | OBJECT",
+            "Required"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/#property-src"
+        },
+        {
+          "path": "args",
+          "section": "action Object",
+          "declaration": [
+            "STRING | ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/#property-args"
+        },
+        {
+          "path": "variables",
+          "section": "action Object",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/#property-variables"
+        },
+        {
+          "path": "flattenarrayargs",
+          "section": "action Object",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/#property-flattenarrayargs"
+        },
+        {
+          "path": "async",
+          "section": "action Object",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/actions/#property-async"
+        }
+      ]
+    },
+    {
+      "key": "components--button",
+      "url": "https://www.alfredapp.com/help/alfredui/components/button/",
+      "title": "button Component",
+      "properties": [
+        {
+          "path": "image",
+          "section": "Properties",
+          "declaration": [
+            "IMAGE | null [ getter ]",
+            "null → remove image"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/button/#property-image"
+        },
+        {
+          "path": "text",
+          "section": "Properties",
+          "declaration": [
+            "STRING [ getter ]",
+            "Default: \"Button\""
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/button/#property-text"
+        },
+        {
+          "path": "font",
+          "section": "Properties",
+          "declaration": [
+            "FONT | null",
+            "null → default font"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/button/#property-font"
+        },
+        {
+          "path": "bordered",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/button/#property-bordered"
+        },
+        {
+          "path": "bordershape",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"auto\" , macOS 26+"
+          ],
+          "enum": [
+            "\"auto\"",
+            "\"capsule\"",
+            "\"roundedrectangle\"",
+            "\"circle\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/button/#property-bordershape"
+        },
+        {
+          "path": "effect",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"default\" , macOS 26+"
+          ],
+          "enum": [
+            "\"default\"",
+            "\"glass\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/button/#property-effect"
+        },
+        {
+          "path": "contenttintcolour",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → default tint"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/button/#property-contenttintcolour"
+        }
+      ]
+    },
+    {
+      "key": "components--checkbox",
+      "url": "https://www.alfredapp.com/help/alfredui/components/checkbox/",
+      "title": "checkbox Component",
+      "properties": [
+        {
+          "path": "text",
+          "section": "Properties",
+          "declaration": [
+            "STRING [ getter ]",
+            "Recommended"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/checkbox/#property-text"
+        },
+        {
+          "path": "checked",
+          "section": "Properties",
+          "declaration": [
+            "BOOL [ getter ]",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/checkbox/#property-checked"
+        }
+      ]
+    },
+    {
+      "key": "components--dataview--filters--basic",
+      "url": "https://www.alfredapp.com/help/alfredui/components/dataview/filters/basic/",
+      "title": "basic Filter",
+      "properties": [
+        {
+          "path": "args",
+          "section": "Properties",
+          "declaration": [
+            "STRING|ARRAY",
+            "Required"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/filters/basic/#property-args"
+        },
+        {
+          "path": "match",
+          "section": "Properties",
+          "declaration": [
+            "STRING",
+            "Required"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/filters/basic/#property-match"
+        },
+        {
+          "path": "matchmode",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"exactfromstartorwhitespace\""
+          ],
+          "enum": [
+            "\"exactfromstartorwhitespace\"",
+            "\"exactfromstart\"",
+            "\"wordmatchanyorder\"",
+            "\"wordmatchsequential\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/filters/basic/#property-matchmode"
+        },
+        {
+          "path": "matchempty",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/filters/basic/#property-matchempty"
+        }
+      ]
+    },
+    {
+      "key": "components--dataview--filters",
+      "url": "https://www.alfredapp.com/help/alfredui/components/dataview/filters/",
+      "title": "Data Filters",
+      "properties": []
+    },
+    {
+      "key": "components--dataview--providers--basic",
+      "url": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/",
+      "title": "basic Data Provider",
+      "properties": [
+        {
+          "path": "src",
+          "section": "Properties",
+          "declaration": [
+            "ARRAY",
+            "Required"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-src"
+        },
+        {
+          "path": "filter",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-filter"
+        },
+        {
+          "path": "filter.type",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"basic\""
+          ],
+          "enum": [
+            "\"basic\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-filter-type"
+        },
+        {
+          "path": "modify",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify"
+        },
+        {
+          "path": "modify.insert",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify-insert"
+        },
+        {
+          "path": "modify.insert.position",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"after\""
+          ],
+          "enum": [
+            "\"after\"",
+            "\"before\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify-insert-position"
+        },
+        {
+          "path": "modify.insert.uid",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify-insert-uid"
+        },
+        {
+          "path": "modify.insert.autoselect",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify-insert-autoselect"
+        },
+        {
+          "path": "modify.insert.src",
+          "section": "Properties",
+          "declaration": [
+            "ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify-insert-src"
+        },
+        {
+          "path": "modify.replace",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify-replace"
+        },
+        {
+          "path": "modify.replace.autoselect",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify-replace-autoselect"
+        },
+        {
+          "path": "modify.replace.srcmap",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify-replace-srcmap"
+        },
+        {
+          "path": "modify.delete",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify-delete"
+        },
+        {
+          "path": "modify.delete.autoselect",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify-delete-autoselect"
+        },
+        {
+          "path": "modify.delete.uids",
+          "section": "Properties",
+          "declaration": [
+            "ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/#property-modify-delete-uids"
+        }
+      ]
+    },
+    {
+      "key": "components--dataview",
+      "url": "https://www.alfredapp.com/help/alfredui/components/dataview/",
+      "title": "dataview Component",
+      "properties": [
+        {
+          "path": "placeholder",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-placeholder"
+        },
+        {
+          "path": "cols",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 1 , Range: 1-16"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-cols"
+        },
+        {
+          "path": "padding",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-padding"
+        },
+        {
+          "path": "spacing",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-spacing"
+        },
+        {
+          "path": "autoadjustcontentinsets",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-autoadjustcontentinsets"
+        },
+        {
+          "path": "cell",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-cell"
+        },
+        {
+          "path": "cell.height",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 64 , Range: 12-1024"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-cell-height"
+        },
+        {
+          "path": "cell.root",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-cell-root"
+        },
+        {
+          "path": "cell.init",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-cell-init"
+        },
+        {
+          "path": "cell.selected",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-cell-selected"
+        },
+        {
+          "path": "behaviour",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-behaviour"
+        },
+        {
+          "path": "behaviour.selection",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-behaviour-selection"
+        },
+        {
+          "path": "behaviour.selection.wrap",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"none\""
+          ],
+          "enum": [
+            "\"none\"",
+            "\"vertical\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-behaviour-selection-wrap"
+        },
+        {
+          "path": "behaviour.selection.allowempty",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-behaviour-selection-allowempty"
+        },
+        {
+          "path": "behaviour.selection.hover",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-behaviour-selection-hover"
+        },
+        {
+          "path": "data",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT",
+            "Required"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-data"
+        },
+        {
+          "path": "data.type",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"basic\""
+          ],
+          "enum": [
+            "\"basic\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-data-type"
+        },
+        {
+          "path": "select",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-select"
+        },
+        {
+          "path": "filterdata",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-filterdata"
+        },
+        {
+          "path": "scrolltop",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-scrolltop"
+        },
+        {
+          "path": "scrollbottom",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-scrollbottom"
+        },
+        {
+          "path": "selectfirst",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-selectfirst"
+        },
+        {
+          "path": "selectlast",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-selectlast"
+        },
+        {
+          "path": "selectprevious",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-selectprevious"
+        },
+        {
+          "path": "selectnext",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-selectnext"
+        },
+        {
+          "path": "selectup",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-selectup"
+        },
+        {
+          "path": "selectdown",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-selectdown"
+        },
+        {
+          "path": "selectleft",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-selectleft"
+        },
+        {
+          "path": "selectright",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-selectright"
+        },
+        {
+          "path": "selectnone",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/dataview/#property-selectnone"
+        }
+      ]
+    },
+    {
+      "key": "components--file",
+      "url": "https://www.alfredapp.com/help/alfredui/components/file/",
+      "title": "file Pseudo-component",
+      "properties": []
+    },
+    {
+      "key": "components--imageview",
+      "url": "https://www.alfredapp.com/help/alfredui/components/imageview/",
+      "title": "imageview Component",
+      "properties": [
+        {
+          "path": "image",
+          "section": "Properties",
+          "declaration": [
+            "IMAGE | null [ getter ]",
+            "null → remove image"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/imageview/#property-image"
+        },
+        {
+          "path": "resize",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"fit\""
+          ],
+          "enum": [
+            "\"fit\"",
+            "\"fill\"",
+            "\"stretch\"",
+            "\"centre\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/imageview/#property-resize"
+        },
+        {
+          "path": "background",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → clear background"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/imageview/#property-background"
+        },
+        {
+          "path": "contenttintcolour",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → default tint"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/imageview/#property-contenttintcolour"
+        },
+        {
+          "path": "cornerradius",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-32"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/imageview/#property-cornerradius"
+        }
+      ]
+    },
+    {
+      "key": "components--label",
+      "url": "https://www.alfredapp.com/help/alfredui/components/label/",
+      "title": "label Component",
+      "properties": [
+        {
+          "path": "text",
+          "section": "Properties",
+          "declaration": [
+            "STRING [ getter ]"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/label/#property-text"
+        },
+        {
+          "path": "colour",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → default text colour"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/label/#property-colour"
+        },
+        {
+          "path": "font",
+          "section": "Properties",
+          "declaration": [
+            "FONT | null",
+            "null → default font"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/label/#property-font"
+        },
+        {
+          "path": "selectable",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/label/#property-selectable"
+        },
+        {
+          "path": "linebreak",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"truncatetail\""
+          ],
+          "enum": [
+            "\"truncatehead\"",
+            "\"truncatemiddle\"",
+            "\"truncatetail\"",
+            "\"wordwrap\"",
+            "\"charwrap\"",
+            "\"clip\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/label/#property-linebreak"
+        },
+        {
+          "path": "textalign",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"natural\""
+          ],
+          "enum": [
+            "\"left\"",
+            "\"right\"",
+            "\"centre\"",
+            "\"justify\"",
+            "\"natural\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/label/#property-textalign"
+        }
+      ]
+    },
+    {
+      "key": "components--markdownarea",
+      "url": "https://www.alfredapp.com/help/alfredui/components/markdownarea/",
+      "title": "markdownarea Component",
+      "properties": [
+        {
+          "path": "background",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → clear background"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-background"
+        },
+        {
+          "path": "font",
+          "section": "Properties",
+          "declaration": [
+            "FONT | null",
+            "null → default font"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-font"
+        },
+        {
+          "path": "colour",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → default text colour"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-colour"
+        },
+        {
+          "path": "linespacing",
+          "section": "Properties",
+          "declaration": [
+            "DOUBLE"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-linespacing"
+        },
+        {
+          "path": "lineheightmultiple",
+          "section": "Properties",
+          "declaration": [
+            "DOUBLE"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-lineheightmultiple"
+        },
+        {
+          "path": "paragraphspacing",
+          "section": "Properties",
+          "declaration": [
+            "DOUBLE"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-paragraphspacing"
+        },
+        {
+          "path": "listspacing",
+          "section": "Properties",
+          "declaration": [
+            "DOUBLE"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-listspacing"
+        },
+        {
+          "path": "autoadjustcontentinsets",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-autoadjustcontentinsets"
+        },
+        {
+          "path": "urischemes",
+          "section": "Properties",
+          "declaration": [
+            "ARRAY",
+            "Default: \"http\", \"https\""
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-urischemes"
+        },
+        {
+          "path": "behaviour",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-behaviour"
+        },
+        {
+          "path": "behaviour.mode",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"replace\""
+          ],
+          "enum": [
+            "\"replace\"",
+            "\"append\"",
+            "\"prepend\"",
+            "\"replacelast\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-behaviour-mode"
+        },
+        {
+          "path": "behaviour.scroll",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"none\""
+          ],
+          "enum": [
+            "\"none\"",
+            "\"auto\"",
+            "\"start\"",
+            "\"end\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-behaviour-scroll"
+        },
+        {
+          "path": "text",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-text"
+        },
+        {
+          "path": "src",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/markdownarea/#property-src"
+        }
+      ]
+    },
+    {
+      "key": "components--passwordfield",
+      "url": "https://www.alfredapp.com/help/alfredui/components/passwordfield/",
+      "title": "passwordfield Component",
+      "properties": [
+        {
+          "path": "text",
+          "section": "Properties",
+          "declaration": [
+            "STRING [ getter ]"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/passwordfield/#property-text"
+        },
+        {
+          "path": "font",
+          "section": "Properties",
+          "declaration": [
+            "FONT | null",
+            "null → default font"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/passwordfield/#property-font"
+        },
+        {
+          "path": "colour",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/passwordfield/#property-colour"
+        },
+        {
+          "path": "bordered",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/passwordfield/#property-bordered"
+        },
+        {
+          "path": "background",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → clear background"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/passwordfield/#property-background"
+        },
+        {
+          "path": "textinsets",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/passwordfield/#property-textinsets"
+        },
+        {
+          "path": "textinsets.horizontal",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 2 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/passwordfield/#property-textinsets-horizontal"
+        },
+        {
+          "path": "textinsets.vertical",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 4 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/passwordfield/#property-textinsets-vertical"
+        },
+        {
+          "path": "focusring",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/passwordfield/#property-focusring"
+        }
+      ]
+    },
+    {
+      "key": "components--picker",
+      "url": "https://www.alfredapp.com/help/alfredui/components/picker/",
+      "title": "picker Component",
+      "properties": [
+        {
+          "path": "items",
+          "section": "Properties",
+          "declaration": [
+            "ARRAY",
+            "Of type: OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-items"
+        },
+        {
+          "path": "items.type",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"item\""
+          ],
+          "enum": [
+            "\"item\"",
+            "\"separator\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-items-type"
+        },
+        {
+          "path": "items.text",
+          "section": "Properties",
+          "declaration": [
+            "STRING [ getter ]",
+            "Recommended"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-items-text"
+        },
+        {
+          "path": "items.value",
+          "section": "Properties",
+          "declaration": [
+            "STRING [ getter ]",
+            "Unique"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-items-value"
+        },
+        {
+          "path": "selected",
+          "section": "Properties",
+          "declaration": [
+            "STRING [ getter ]",
+            "setter: item value"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-selected"
+        },
+        {
+          "path": "font",
+          "section": "Properties",
+          "declaration": [
+            "FONT | null",
+            "null → default font"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-font"
+        },
+        {
+          "path": "bordered",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-bordered"
+        },
+        {
+          "path": "bordershape",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"auto\" , macOS 26+"
+          ],
+          "enum": [
+            "\"auto\"",
+            "\"capsule\"",
+            "\"roundedrectangle\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-bordershape"
+        },
+        {
+          "path": "selectfirst",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-selectfirst"
+        },
+        {
+          "path": "selectlast",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-selectlast"
+        },
+        {
+          "path": "selectprevious",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-selectprevious"
+        },
+        {
+          "path": "selectnext",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/picker/#property-selectnext"
+        }
+      ]
+    },
+    {
+      "key": "components--progress",
+      "url": "https://www.alfredapp.com/help/alfredui/components/progress/",
+      "title": "progress Component",
+      "properties": [
+        {
+          "path": "style",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"linear\""
+          ],
+          "enum": [
+            "\"linear\"",
+            "\"round\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/progress/#property-style"
+        },
+        {
+          "path": "thickness",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default 0 . Range 0-32"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/progress/#property-thickness"
+        },
+        {
+          "path": "progress",
+          "section": "Properties",
+          "declaration": [
+            "DOUBLE [ getter ]",
+            "Default 0.0 , Range 0.0-1.0"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/progress/#property-progress"
+        },
+        {
+          "path": "colour",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → default accent colour"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/progress/#property-colour"
+        },
+        {
+          "path": "background",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → clear background"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/progress/#property-background"
+        }
+      ]
+    },
+    {
+      "key": "components--shared-properties",
+      "url": "https://www.alfredapp.com/help/alfredui/components/shared-properties/",
+      "title": "Shared Properties",
+      "properties": [
+        {
+          "path": "type",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"view\""
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-type"
+        },
+        {
+          "path": "id",
+          "section": "Properties",
+          "declaration": [
+            "STRING",
+            "Unique"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-id"
+        },
+        {
+          "path": "constraints",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT",
+            "View properties"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-constraints"
+        },
+        {
+          "path": "events",
+          "section": "Properties",
+          "declaration": [
+            "ARRAY | EVENT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-events"
+        },
+        {
+          "path": "focus",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "one component only"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-focus"
+        },
+        {
+          "path": "hidden",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-hidden"
+        },
+        {
+          "path": "opacity",
+          "section": "Properties",
+          "declaration": [
+            "DOUBLE",
+            "Default: 1.0 , Range: 0.0-1.0"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-opacity"
+        },
+        {
+          "path": "enabled",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-enabled"
+        },
+        {
+          "path": "tooltip",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-tooltip"
+        },
+        {
+          "path": "menu",
+          "section": "Properties",
+          "declaration": [
+            "ARRAY",
+            "Of type: MENU"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-menu"
+        },
+        {
+          "path": "shortcut",
+          "section": "Properties",
+          "declaration": [
+            "STRING",
+            "supported actionable controls only"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-shortcut"
+        },
+        {
+          "path": "accessibility",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-accessibility"
+        },
+        {
+          "path": "accessibility.label",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-accessibility-label"
+        },
+        {
+          "path": "accessibility.help",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/shared-properties/#property-accessibility-help"
+        }
+      ]
+    },
+    {
+      "key": "components--textarea",
+      "url": "https://www.alfredapp.com/help/alfredui/components/textarea/",
+      "title": "textarea Component",
+      "properties": [
+        {
+          "path": "background",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → clear background"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-background"
+        },
+        {
+          "path": "font",
+          "section": "Properties",
+          "declaration": [
+            "FONT | null",
+            "null → default font"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-font"
+        },
+        {
+          "path": "colour",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → default text colour"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-colour"
+        },
+        {
+          "path": "bordertype",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"none\""
+          ],
+          "enum": [
+            "\"bezel\"",
+            "\"solid\"",
+            "\"none\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-bordertype"
+        },
+        {
+          "path": "editable",
+          "section": "Properties",
+          "declaration": [
+            "BOOL"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-editable"
+        },
+        {
+          "path": "selectable",
+          "section": "Properties",
+          "declaration": [
+            "BOOL"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-selectable"
+        },
+        {
+          "path": "behaviour",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-behaviour"
+        },
+        {
+          "path": "behaviour.mode",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"replace\""
+          ],
+          "enum": [
+            "\"replace\"",
+            "\"append\"",
+            "\"prepend\"",
+            "\"replacelast\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-behaviour-mode"
+        },
+        {
+          "path": "behaviour.scroll",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"none\""
+          ],
+          "enum": [
+            "\"none\"",
+            "\"auto\"",
+            "\"start\"",
+            "\"end\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-behaviour-scroll"
+        },
+        {
+          "path": "autoadjustcontentinsets",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-autoadjustcontentinsets"
+        },
+        {
+          "path": "text",
+          "section": "Properties",
+          "declaration": [
+            "STRING [ getter ]"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-text"
+        },
+        {
+          "path": "textinsets",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-textinsets"
+        },
+        {
+          "path": "textinsets.horizontal",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-textinsets-horizontal"
+        },
+        {
+          "path": "textinsets.vertical",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-textinsets-vertical"
+        },
+        {
+          "path": "disableallsubstitutions",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: \"false\""
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-disableallsubstitutions"
+        },
+        {
+          "path": "scrolltop",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-scrolltop"
+        },
+        {
+          "path": "scrollbottom",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-scrollbottom"
+        },
+        {
+          "path": "caretstart",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-caretstart"
+        },
+        {
+          "path": "caretend",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textarea/#property-caretend"
+        }
+      ]
+    },
+    {
+      "key": "components--textfield",
+      "url": "https://www.alfredapp.com/help/alfredui/components/textfield/",
+      "title": "textfield Component",
+      "properties": [
+        {
+          "path": "multiline",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-multiline"
+        },
+        {
+          "path": "text",
+          "section": "Properties",
+          "declaration": [
+            "STRING [ getter ]"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-text"
+        },
+        {
+          "path": "font",
+          "section": "Properties",
+          "declaration": [
+            "FONT | null",
+            "null → default font"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-font"
+        },
+        {
+          "path": "colour",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → default text colour"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-colour"
+        },
+        {
+          "path": "bordered",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-bordered"
+        },
+        {
+          "path": "background",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → clear background"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-background"
+        },
+        {
+          "path": "textinsets",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-textinsets"
+        },
+        {
+          "path": "textinsets.horizontal",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 2 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-textinsets-horizontal"
+        },
+        {
+          "path": "textinsets.vertical",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 4 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-textinsets-vertical"
+        },
+        {
+          "path": "focusring",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-focusring"
+        },
+        {
+          "path": "placeholdercolour",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → placeholder colour reset"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-placeholdercolour"
+        },
+        {
+          "path": "placeholder",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-placeholder"
+        },
+        {
+          "path": "editable",
+          "section": "Properties",
+          "declaration": [
+            "BOOL"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-editable"
+        },
+        {
+          "path": "selectable",
+          "section": "Properties",
+          "declaration": [
+            "BOOL"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-selectable"
+        },
+        {
+          "path": "linebreak",
+          "section": "Properties",
+          "declaration": [
+            "\"scroll\" | \"wrap\"",
+            "Default: \"scroll\""
+          ],
+          "enum": [
+            "\"scroll\"",
+            "\"wrap\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/textfield/#property-linebreak"
+        }
+      ]
+    },
+    {
+      "key": "components--view",
+      "url": "https://www.alfredapp.com/help/alfredui/components/view/",
+      "title": "view Component",
+      "properties": [
+        {
+          "path": "layout",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"stack\""
+          ],
+          "enum": [
+            "\"stack\"",
+            "\"border\"",
+            "\"grid\"",
+            "\"inline\"",
+            "\"form\"",
+            "\"flex\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-layout"
+        },
+        {
+          "path": "components",
+          "section": "Properties",
+          "declaration": [
+            "ARRAY",
+            "Of type: component"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-components"
+        },
+        {
+          "path": "padding",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-padding"
+        },
+        {
+          "path": "spacing",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-spacing"
+        },
+        {
+          "path": "cliptobounds",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-cliptobounds"
+        },
+        {
+          "path": "cornerradius",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-32"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-cornerradius"
+        },
+        {
+          "path": "appearance",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"inherit\""
+          ],
+          "enum": [
+            "\"inherit\"",
+            "\"light\"",
+            "\"dark\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-appearance"
+        },
+        {
+          "path": "background",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → clear background"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-background"
+        },
+        {
+          "path": "border",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-border"
+        },
+        {
+          "path": "border.width",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-32"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-border-width"
+        },
+        {
+          "path": "border.colour",
+          "section": "Properties",
+          "declaration": [
+            "COLOUR | null",
+            "null → clear border"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-border-colour"
+        },
+        {
+          "path": "focusable",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-focusable"
+        },
+        {
+          "path": "shortcuts",
+          "section": "Properties",
+          "declaration": [
+            "ARRAY",
+            "Of type: SHORTCUT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-shortcuts"
+        },
+        {
+          "path": "vetomovablebybackground",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/view/#property-vetomovablebybackground"
+        }
+      ]
+    },
+    {
+      "key": "components--webkitview",
+      "url": "https://www.alfredapp.com/help/alfredui/components/webkitview/",
+      "title": "webkitview Component",
+      "properties": [
+        {
+          "path": "openlinksexternally",
+          "section": "Properties",
+          "declaration": [
+            "BOOL | REGEX",
+            "Default: false (i.e. all links open internally)"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/webkitview/#property-openlinksexternally"
+        },
+        {
+          "path": "text",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/webkitview/#property-text"
+        },
+        {
+          "path": "src",
+          "section": "Properties",
+          "declaration": [
+            "STRING [ getter ]"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/webkitview/#property-src"
+        },
+        {
+          "path": "back",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/webkitview/#property-back"
+        },
+        {
+          "path": "forward",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/webkitview/#property-forward"
+        },
+        {
+          "path": "reload",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/components/webkitview/#property-reload"
+        }
+      ]
+    },
+    {
+      "key": "components",
+      "url": "https://www.alfredapp.com/help/alfredui/components/",
+      "title": "Alfred UI Components",
+      "properties": []
+    },
+    {
+      "key": "debug",
+      "url": "https://www.alfredapp.com/help/alfredui/debug/",
+      "title": "Debug",
+      "properties": [
+        {
+          "path": "colourful",
+          "section": "Properties",
+          "declaration": [
+            "BOOL"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/debug/#property-colourful"
+        },
+        {
+          "path": "reloadshortcut",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/debug/#property-reloadshortcut"
+        }
+      ]
+    },
+    {
+      "key": "events",
+      "url": "https://www.alfredapp.com/help/alfredui/events/",
+      "title": "Events",
+      "properties": [
+        {
+          "path": "triggers",
+          "section": "event Properties",
+          "declaration": [
+            "ENUM | ARRAY of ENUM",
+            "Default: \"actioned\""
+          ],
+          "enum": [
+            "\"preload\"",
+            "\"launched\"",
+            "\"quit\"",
+            "\"actioned\"",
+            "\"changed\"",
+            "\"typingstopped\"",
+            "\"mousedown\"",
+            "\"mouseup\"",
+            "\"clicked\"",
+            "\"doubleclicked\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/events/#property-triggers"
+        },
+        {
+          "path": "action",
+          "section": "event Properties",
+          "declaration": [
+            "ACTION | ARRAY",
+            "Required"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/events/#property-action"
+        },
+        {
+          "path": "confirm",
+          "section": "event Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/events/#property-confirm"
+        },
+        {
+          "path": "confirm.message",
+          "section": "event Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/events/#property-confirm-message"
+        },
+        {
+          "path": "confirm.iconpath",
+          "section": "event Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/events/#property-confirm-iconpath"
+        },
+        {
+          "path": "confirm.informativetext",
+          "section": "event Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/events/#property-confirm-informativetext"
+        },
+        {
+          "path": "confirm.confirmbuttontext",
+          "section": "event Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/events/#property-confirm-confirmbuttontext"
+        },
+        {
+          "path": "confirm.cancelbuttontext",
+          "section": "event Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/events/#property-confirm-cancelbuttontext"
+        }
+      ]
+    },
+    {
+      "key": "layouts--border",
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/border/",
+      "title": "border Layout",
+      "properties": [
+        {
+          "path": "padding",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/border/#property-padding"
+        },
+        {
+          "path": "spacing",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/border/#property-spacing"
+        },
+        {
+          "path": "region",
+          "section": "Constraints",
+          "declaration": [
+            "ENUM",
+            "Required for border layout"
+          ],
+          "enum": [
+            "\"top\"",
+            "\"right\"",
+            "\"bottom\"",
+            "\"left\"",
+            "\"centre\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/border/#property-region"
+        }
+      ]
+    },
+    {
+      "key": "layouts--constraints",
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/constraints/",
+      "title": "Constraints",
+      "properties": [
+        {
+          "path": "region",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Required for border layout"
+          ],
+          "enum": [
+            "\"top\"",
+            "\"right\"",
+            "\"bottom\"",
+            "\"left\"",
+            "\"centre\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-region"
+        },
+        {
+          "path": "position",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"fit\""
+          ],
+          "enum": [
+            "\"fit\"",
+            "\"centre\"",
+            "\"top\"",
+            "\"right\"",
+            "\"bottom\"",
+            "\"left\"",
+            "\"topright\"",
+            "\"bottomright\"",
+            "\"bottomleft\"",
+            "\"topleft\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-position"
+        },
+        {
+          "path": "stretch",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"none\""
+          ],
+          "enum": [
+            "\"none\"",
+            "\"horizontal\"",
+            "\"vertical\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-stretch"
+        },
+        {
+          "path": "grid",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT",
+            "Required for flex layout"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-grid"
+        },
+        {
+          "path": "grid.col",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-1024"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-grid-col"
+        },
+        {
+          "path": "grid.row",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-1024"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-grid-row"
+        },
+        {
+          "path": "grid.colspan",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 1 , Range: 1-1024"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-grid-colspan"
+        },
+        {
+          "path": "grid.rowspan",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 1 , Range: 1-1024"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-grid-rowspan"
+        },
+        {
+          "path": "grid.colweight",
+          "section": "Properties",
+          "declaration": [
+            "DOUBLE",
+            "Default: 0.0 , Range: 0.0-1.0"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-grid-colweight"
+        },
+        {
+          "path": "grid.rowweight",
+          "section": "Properties",
+          "declaration": [
+            "DOUBLE",
+            "Default: 0.0 , Range: 0.0-1.0"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-grid-rowweight"
+        },
+        {
+          "path": "insets",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-insets"
+        },
+        {
+          "path": "insets.top",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-128"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-insets-top"
+        },
+        {
+          "path": "insets.right",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-128"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-insets-right"
+        },
+        {
+          "path": "insets.bottom",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-128"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-insets-bottom"
+        },
+        {
+          "path": "insets.left",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-128"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-insets-left"
+        },
+        {
+          "path": "size",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT | INTEGER"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-size"
+        },
+        {
+          "path": "size.width",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , use 0 for automatic sizing."
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-size-width"
+        },
+        {
+          "path": "size.height",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , use 0 for automatic sizing."
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/constraints/#property-size-height"
+        }
+      ]
+    },
+    {
+      "key": "layouts--flex",
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/flex/",
+      "title": "flex Layout",
+      "properties": [
+        {
+          "path": "rows",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 2 , Range: 1-128"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/flex/#property-rows"
+        },
+        {
+          "path": "cols",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 2 , Range: 1-128"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/flex/#property-cols"
+        },
+        {
+          "path": "padding",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/flex/#property-padding"
+        },
+        {
+          "path": "spacing",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/flex/#property-spacing"
+        },
+        {
+          "path": "grid",
+          "section": "Constraints",
+          "declaration": [
+            "OBJECT",
+            "Required for flex layout"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/flex/#property-grid"
+        },
+        {
+          "path": "grid.col",
+          "section": "Constraints",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-1024"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/flex/#property-grid-col"
+        },
+        {
+          "path": "grid.row",
+          "section": "Constraints",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-1024"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/flex/#property-grid-row"
+        },
+        {
+          "path": "grid.colspan",
+          "section": "Constraints",
+          "declaration": [
+            "INTEGER",
+            "Default: 1 , Range: 1-1024"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/flex/#property-grid-colspan"
+        },
+        {
+          "path": "grid.rowspan",
+          "section": "Constraints",
+          "declaration": [
+            "INTEGER",
+            "Default: 1 , Range: 1-1024"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/flex/#property-grid-rowspan"
+        },
+        {
+          "path": "grid.colweight",
+          "section": "Constraints",
+          "declaration": [
+            "DOUBLE",
+            "Default: 0.0 , Range: 0.0-1.0"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/flex/#property-grid-colweight"
+        },
+        {
+          "path": "grid.rowweight",
+          "section": "Constraints",
+          "declaration": [
+            "DOUBLE",
+            "Default: 0.0 , Range: 0.0-1.0"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/flex/#property-grid-rowweight"
+        }
+      ]
+    },
+    {
+      "key": "layouts--form",
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/form/",
+      "title": "form Layout",
+      "properties": [
+        {
+          "path": "padding",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/form/#property-padding"
+        },
+        {
+          "path": "spacing",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/form/#property-spacing"
+        }
+      ]
+    },
+    {
+      "key": "layouts--grid",
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/grid/",
+      "title": "grid Layout",
+      "properties": [
+        {
+          "path": "rows",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 2 , Range: 1-128"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/grid/#property-rows"
+        },
+        {
+          "path": "cols",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 2 , Range: 1-128"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/grid/#property-cols"
+        },
+        {
+          "path": "padding",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/grid/#property-padding"
+        },
+        {
+          "path": "spacing",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/grid/#property-spacing"
+        }
+      ]
+    },
+    {
+      "key": "layouts--inline",
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/inline/",
+      "title": "inline Layout",
+      "properties": [
+        {
+          "path": "direction",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"horizontal\""
+          ],
+          "enum": [
+            "\"horizontal\"",
+            "\"vertical\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/inline/#property-direction"
+        },
+        {
+          "path": "padding",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/inline/#property-padding"
+        },
+        {
+          "path": "spacing",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/inline/#property-spacing"
+        }
+      ]
+    },
+    {
+      "key": "layouts--stack",
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/stack/",
+      "title": "stack Layout",
+      "properties": [
+        {
+          "path": "padding",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0 , Range: 0-64"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/layouts/stack/#property-padding"
+        }
+      ]
+    },
+    {
+      "key": "layouts",
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/",
+      "title": "Layouts",
+      "properties": []
+    },
+    {
+      "key": "log",
+      "url": "https://www.alfredapp.com/help/alfredui/log/",
+      "title": "Log",
+      "properties": [
+        {
+          "path": "path",
+          "section": "Properties",
+          "declaration": [
+            "STRING",
+            "Optional"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/log/#property-path"
+        },
+        {
+          "path": "level",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"none\""
+          ],
+          "enum": [
+            "\"none\"",
+            "\"error\"",
+            "\"warning\"",
+            "\"info\"",
+            "\"debug\"",
+            "\"verbose\"",
+            "\"all\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/log/#property-level"
+        },
+        {
+          "path": "timestamp",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/log/#property-timestamp"
+        },
+        {
+          "path": "colourful",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/log/#property-colourful"
+        },
+        {
+          "path": "console",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/log/#property-console"
+        },
+        {
+          "path": "internal",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/log/#property-internal"
+        }
+      ]
+    },
+    {
+      "key": "placeholders",
+      "url": "https://www.alfredapp.com/help/alfredui/placeholders/",
+      "title": "Placeholders",
+      "properties": []
+    },
+    {
+      "key": "properties--colour",
+      "url": "https://www.alfredapp.com/help/alfredui/properties/colour/",
+      "title": "COLOUR Property Type",
+      "properties": []
+    },
+    {
+      "key": "properties--font",
+      "url": "https://www.alfredapp.com/help/alfredui/properties/font/",
+      "title": "FONT Property Type",
+      "properties": [
+        {
+          "path": "size",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"default\""
+          ],
+          "enum": [
+            "size-px",
+            "\"default\"",
+            "\"hairline\"",
+            "\"extrasmall\"",
+            "\"small\"",
+            "\"medium\"",
+            "\"large\"",
+            "\"extralarge\"",
+            "\"ginormous\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/font/#property-size"
+        },
+        {
+          "path": "monospaced",
+          "section": "Properties",
+          "declaration": [
+            "BOOL | \"digits\"",
+            "Default: false"
+          ],
+          "enum": [
+            "true",
+            "false",
+            "\"digits\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/font/#property-monospaced"
+        },
+        {
+          "path": "weight",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"regular\""
+          ],
+          "enum": [
+            "\"ultralight\"",
+            "\"thin\"",
+            "\"light\"",
+            "\"regular\"",
+            "\"medium\"",
+            "\"semibold\"",
+            "\"bold\"",
+            "\"heavy\"",
+            "\"black\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/font/#property-weight"
+        },
+        {
+          "path": "width",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"standard\""
+          ],
+          "enum": [
+            "\"compressed\"",
+            "\"condensed\"",
+            "\"standard\"",
+            "\"expanded\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/font/#property-width"
+        }
+      ]
+    },
+    {
+      "key": "properties--getters",
+      "url": "https://www.alfredapp.com/help/alfredui/properties/getters/",
+      "title": "Getters",
+      "properties": []
+    },
+    {
+      "key": "properties--image",
+      "url": "https://www.alfredapp.com/help/alfredui/properties/image/",
+      "title": "IMAGE Property Type",
+      "properties": [
+        {
+          "path": "size",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/image/#property-size"
+        },
+        {
+          "path": "size.width",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/image/#property-size-width"
+        },
+        {
+          "path": "size.height",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/image/#property-size-height"
+        },
+        {
+          "path": "type",
+          "section": "Properties",
+          "declaration": [
+            "\"file\" | \"fileicon\" | \"filetypeicon\" | \"symbol\"",
+            "Default: \"file\""
+          ],
+          "enum": [
+            "\"file\"",
+            "\"fileicon\"",
+            "\"filetypeicon\"",
+            "\"symbol\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/image/#property-type"
+        },
+        {
+          "path": "src",
+          "section": "Properties",
+          "declaration": [
+            "STRING",
+            "Required"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/image/#property-src"
+        }
+      ]
+    },
+    {
+      "key": "properties--menu",
+      "url": "https://www.alfredapp.com/help/alfredui/properties/menu/",
+      "title": "MENU Property Type",
+      "properties": [
+        {
+          "path": "type",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"text\""
+          ],
+          "enum": [
+            "\"text\"",
+            "\"separator\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/menu/#property-type"
+        },
+        {
+          "path": "text",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/menu/#property-text"
+        },
+        {
+          "path": "state",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"off\""
+          ],
+          "enum": [
+            "\"off\"",
+            "\"on\"",
+            "\"mixed\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/menu/#property-state"
+        },
+        {
+          "path": "submenu",
+          "section": "Properties",
+          "declaration": [
+            "ARRAY",
+            "Of type: menu"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/menu/#property-submenu"
+        },
+        {
+          "path": "action",
+          "section": "Properties",
+          "declaration": [
+            "ACTION | ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/menu/#property-action"
+        }
+      ]
+    },
+    {
+      "key": "properties--shortcut",
+      "url": "https://www.alfredapp.com/help/alfredui/properties/shortcut/",
+      "title": "SHORTCUT Property Type",
+      "properties": [
+        {
+          "path": "shortcut",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/shortcut/#property-shortcut"
+        },
+        {
+          "path": "action",
+          "section": "Properties",
+          "declaration": [
+            "ACTION | ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/properties/shortcut/#property-action"
+        }
+      ]
+    },
+    {
+      "key": "properties",
+      "url": "https://www.alfredapp.com/help/alfredui/properties/",
+      "title": "Properties",
+      "properties": []
+    },
+    {
+      "key": "pulse",
+      "url": "https://www.alfredapp.com/help/alfredui/pulse/",
+      "title": "Pulse",
+      "properties": [
+        {
+          "path": "src",
+          "section": "Properties",
+          "declaration": [
+            "STRING",
+            "Required"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/pulse/#property-src"
+        },
+        {
+          "path": "args",
+          "section": "Properties",
+          "declaration": [
+            "STRING | ARRAY"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/pulse/#property-args"
+        },
+        {
+          "path": "now",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/pulse/#property-now"
+        },
+        {
+          "path": "intervalmode",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"delay\""
+          ],
+          "enum": [
+            "\"delay\"",
+            "\"regular\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/pulse/#property-intervalmode"
+        },
+        {
+          "path": "interval",
+          "section": "Properties",
+          "declaration": [
+            "DOUBLE",
+            "Default: 0 , Range: 0.1-1000"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/pulse/#property-interval"
+        }
+      ]
+    },
+    {
+      "key": "structure",
+      "url": "https://www.alfredapp.com/help/alfredui/structure/",
+      "title": ".alfredui Folder Structure",
+      "properties": []
+    },
+    {
+      "key": "templates",
+      "url": "https://www.alfredapp.com/help/alfredui/templates/",
+      "title": "Templates",
+      "properties": [
+        {
+          "path": "src",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/templates/#property-src"
+        },
+        {
+          "path": "params",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/templates/#property-params"
+        }
+      ]
+    },
+    {
+      "key": "tutorials--colour-search",
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/colour-search/",
+      "title": "Colour Search Alfred UI Tutorial",
+      "properties": []
+    },
+    {
+      "key": "tutorials--sound-board",
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/sound-board/",
+      "title": "Sound Board Alfred UI Tutorial",
+      "properties": []
+    },
+    {
+      "key": "tutorials--speak-the-text",
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/speak-the-text/",
+      "title": "Speak the Text Alfred UI Tutorial",
+      "properties": []
+    },
+    {
+      "key": "tutorials--text-to-markdown",
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/text-to-markdown/",
+      "title": "Text to Markdown Alfred UI Tutorial",
+      "properties": []
+    },
+    {
+      "key": "tutorials--web-browser",
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/web-browser/",
+      "title": "Web Browser Alfred UI Tutorial",
+      "properties": []
+    },
+    {
+      "key": "tutorials",
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/",
+      "title": "Alfred UI Tutorials",
+      "properties": []
+    },
+    {
+      "key": "ui-json",
+      "url": "https://www.alfredapp.com/help/alfredui/ui-json/",
+      "title": "ui.json",
+      "properties": [
+        {
+          "path": "bundleid",
+          "section": "Properties",
+          "declaration": [
+            "STRING",
+            "Recommended"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/ui-json/#property-bundleid"
+        },
+        {
+          "path": "variablesconfig",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/ui-json/#property-variablesconfig"
+        },
+        {
+          "path": "variables",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/ui-json/#property-variables"
+        },
+        {
+          "path": "iconpath",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/ui-json/#property-iconpath"
+        },
+        {
+          "path": "log",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/ui-json/#property-log"
+        },
+        {
+          "path": "debug",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/ui-json/#property-debug"
+        },
+        {
+          "path": "templates",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/ui-json/#property-templates"
+        },
+        {
+          "path": "colours",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/ui-json/#property-colours"
+        },
+        {
+          "path": "pulse",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/ui-json/#property-pulse"
+        }
+      ]
+    },
+    {
+      "key": "variables",
+      "url": "https://www.alfredapp.com/help/alfredui/variables/",
+      "title": "Variables",
+      "properties": [
+        {
+          "path": "default",
+          "section": "Variables Configuration",
+          "declaration": [
+            "STRING",
+            "Default: null"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/variables/#property-default"
+        },
+        {
+          "path": "persist",
+          "section": "Variables Configuration",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/variables/#property-persist"
+        },
+        {
+          "path": "scriptenv",
+          "section": "Variables Configuration",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/variables/#property-scriptenv"
+        },
+        {
+          "path": "src",
+          "section": "Variables Configuration",
+          "declaration": [
+            "SPECIAL",
+            "Optional"
+          ],
+          "enum": [
+            "args[x]",
+            "args",
+            "variable"
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/variables/#property-src"
+        }
+      ]
+    },
+    {
+      "key": "window",
+      "url": "https://www.alfredapp.com/help/alfredui/window/",
+      "title": "Window",
+      "properties": [
+        {
+          "path": "root",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT",
+            "Required"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-root"
+        },
+        {
+          "path": "id",
+          "section": "Properties",
+          "declaration": [
+            "STRING"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-id"
+        },
+        {
+          "path": "title",
+          "section": "Properties",
+          "declaration": [
+            "STRING",
+            "Recommended"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-title"
+        },
+        {
+          "path": "blur",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-blur"
+        },
+        {
+          "path": "movablebybackground",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-movablebybackground"
+        },
+        {
+          "path": "level",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-level"
+        },
+        {
+          "path": "appearance",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"automatic\""
+          ],
+          "enum": [
+            "\"automatic\"",
+            "\"light\"",
+            "\"dark\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-appearance"
+        },
+        {
+          "path": "size",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-size"
+        },
+        {
+          "path": "size.width",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 800 , Range: 50-10000 , Optional when running UI inside of Alfred"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-size-width"
+        },
+        {
+          "path": "size.height",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 600 , Range: 50-10000 , Optional when running UI inside of Alfred"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-size-height"
+        },
+        {
+          "path": "minsize",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-minsize"
+        },
+        {
+          "path": "minsize.width",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-minsize-width"
+        },
+        {
+          "path": "minsize.height",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-minsize-height"
+        },
+        {
+          "path": "maxsize",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-maxsize"
+        },
+        {
+          "path": "maxsize.width",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-maxsize-width"
+        },
+        {
+          "path": "maxsize.height",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-maxsize-height"
+        },
+        {
+          "path": "borderless",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-borderless"
+        },
+        {
+          "path": "closeable",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-closeable"
+        },
+        {
+          "path": "minimisable",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-minimisable"
+        },
+        {
+          "path": "resizeable",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-resizeable"
+        },
+        {
+          "path": "fullscreenable",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-fullscreenable"
+        },
+        {
+          "path": "fullsizecontentview",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-fullsizecontentview"
+        },
+        {
+          "path": "frameautosave",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-frameautosave"
+        },
+        {
+          "path": "titlevisibility",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: true"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-titlevisibility"
+        },
+        {
+          "path": "titlebarappearstransparent",
+          "section": "Properties",
+          "declaration": [
+            "BOOL",
+            "Default: false"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-titlebarappearstransparent"
+        },
+        {
+          "path": "toolbar",
+          "section": "Properties",
+          "declaration": [
+            "OBJECT"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-toolbar"
+        },
+        {
+          "path": "toolbar.type",
+          "section": "Properties",
+          "declaration": [
+            "ENUM",
+            "Default: \"unified\""
+          ],
+          "enum": [
+            "\"unified\"",
+            "\"unifiedcompact\""
+          ],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-toolbar-type"
+        },
+        {
+          "path": "padding",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0, Range: 0-32"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-padding"
+        },
+        {
+          "path": "cornerradius",
+          "section": "Properties",
+          "declaration": [
+            "INTEGER",
+            "Default: 0, Range: 0-128"
+          ],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-cornerradius"
+        },
+        {
+          "path": "close",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-close"
+        },
+        {
+          "path": "zoom",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-zoom"
+        },
+        {
+          "path": "minimise",
+          "section": "Functions",
+          "declaration": [],
+          "enum": [],
+          "source": "https://www.alfredapp.com/help/alfredui/window/#property-minimise"
+        }
+      ]
+    },
+    {
+      "key": "alfredui",
+      "url": "https://www.alfredapp.com/help/alfredui/",
+      "title": "Alfred UI",
+      "properties": []
+    },
+    {
+      "key": "workflows--user-interface--alfredui",
+      "url": "https://www.alfredapp.com/help/workflows/user-interface/alfredui/",
+      "title": "Alfred UI",
+      "properties": []
+    }
+  ]
+}

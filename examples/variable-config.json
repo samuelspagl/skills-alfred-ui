@@ -1,0 +1,20 @@
+{
+  "bundleid": "example.alfredui.imports",
+  "variablesconfig": {
+    "query": {
+      "src": "args[0]",
+      "default": "",
+      "scriptenv": true,
+      "persist": false
+    },
+    "workspace": {
+      "src": "variable",
+      "scriptenv": true
+    },
+    "theme": {
+      "default": "system",
+      "persist": true,
+      "scriptenv": false
+    }
+  }
+}

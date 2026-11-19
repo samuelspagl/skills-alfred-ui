@@ -1,0 +1,17 @@
+{
+  "type": "view",
+  "layout": "grid",
+  "components": [
+    {
+      "type": "label",
+      "text": "First"
+    },
+    {
+      "type": "label",
+      "text": "Second"
+    }
+  ],
+  "padding": 8,
+  "rows": 1,
+  "cols": 2
+}

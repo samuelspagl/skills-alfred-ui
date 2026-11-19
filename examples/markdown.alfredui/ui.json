@@ -1,0 +1,70 @@
+{
+  "bundleid": "example.alfredui.markdown",
+  "window": {
+    "title": "Markdown",
+    "padding": 12,
+    "size": {
+      "width": 640,
+      "height": 420
+    },
+    "root": {
+      "type": "view",
+      "layout": "border",
+      "components": [
+        {
+          "type": "textarea",
+          "id": "input",
+          "text": "## Draft\n\nA **new** paragraph.",
+          "editable": true,
+          "focus": true,
+          "constraints": {
+            "region": "left",
+            "size": {
+              "width": 240,
+              "height": 260
+            }
+          }
+        },
+        {
+          "type": "markdownarea",
+          "id": "preview",
+          "text": "## Preview",
+          "constraints": {
+            "region": "centre"
+          }
+        },
+        {
+          "type": "button",
+          "text": "Render",
+          "events": [
+            {
+              "triggers": "actioned",
+              "action": {
+                "type": "json",
+                "src": {
+                  "update": {
+                    "ids": {
+                      "preview": {
+                        "text": "{var:body}",
+                        "behaviour": {
+                          "mode": "replace"
+                        }
+                      }
+                    }
+                  }
+                },
+                "variables": {
+                  "body": "{value:input.text}"
+                }
+              }
+            }
+          ],
+          "constraints": {
+            "region": "bottom"
+          }
+        }
+      ],
+      "spacing": 8
+    }
+  }
+}

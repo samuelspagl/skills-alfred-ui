@@ -1,0 +1,18 @@
+{
+  "opendialog": {
+    "filetypes": [
+      "public.image"
+    ],
+    "multiselect": true,
+    "setvariable": "chosen",
+    "action": {
+      "type": "json",
+      "src": {
+        "open": {
+          "type": "file",
+          "src": "{var:chosen}"
+        }
+      }
+    }
+  }
+}

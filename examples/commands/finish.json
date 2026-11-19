@@ -1,0 +1,10 @@
+{
+  "finish": {
+    "args": [
+      "complete"
+    ],
+    "variables": {
+      "result": "ok"
+    }
+  }
+}

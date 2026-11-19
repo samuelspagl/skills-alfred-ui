@@ -1,0 +1,12 @@
+{
+  "insert": {
+    "ids": {
+      "container": [
+        {
+          "type": "label",
+          "text": "Added entry"
+        }
+      ]
+    }
+  }
+}

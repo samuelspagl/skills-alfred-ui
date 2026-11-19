@@ -1,0 +1,17 @@
+{
+  "sheet": {
+    "id": "details",
+    "root": {
+      "type": "view",
+      "layout": "inline",
+      "components": [
+        {
+          "type": "label",
+          "text": "Details panel"
+        }
+      ],
+      "direction": "vertical",
+      "padding": 12
+    }
+  }
+}

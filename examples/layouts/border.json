@@ -1,0 +1,21 @@
+{
+  "type": "view",
+  "layout": "border",
+  "components": [
+    {
+      "type": "label",
+      "text": "First",
+      "constraints": {
+        "region": "top"
+      }
+    },
+    {
+      "type": "label",
+      "text": "Second",
+      "constraints": {
+        "region": "centre"
+      }
+    }
+  ],
+  "padding": 8
+}

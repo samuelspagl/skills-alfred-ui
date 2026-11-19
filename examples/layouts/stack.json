@@ -1,0 +1,15 @@
+{
+  "type": "view",
+  "layout": "stack",
+  "components": [
+    {
+      "type": "label",
+      "text": "First"
+    },
+    {
+      "type": "label",
+      "text": "Second"
+    }
+  ],
+  "padding": 8
+}

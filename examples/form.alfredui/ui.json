@@ -1,0 +1,84 @@
+{
+  "bundleid": "example.alfredui.form",
+  "window": {
+    "title": "Form",
+    "padding": 12,
+    "size": {
+      "width": 640,
+      "height": 420
+    },
+    "root": {
+      "type": "view",
+      "layout": "form",
+      "components": [
+        {
+          "type": "label",
+          "text": "Message"
+        },
+        {
+          "type": "textfield",
+          "id": "message",
+          "text": "A short note",
+          "focus": true
+        },
+        {
+          "type": "label",
+          "text": "Category"
+        },
+        {
+          "type": "picker",
+          "id": "category",
+          "items": [
+            {
+              "text": "Personal",
+              "value": "personal"
+            },
+            {
+              "text": "Work",
+              "value": "work"
+            }
+          ],
+          "selected": "work"
+        },
+        {
+          "type": "label",
+          "text": "Enabled"
+        },
+        {
+          "type": "checkbox",
+          "id": "enabled",
+          "text": "Include this note",
+          "checked": true
+        },
+        {},
+        {
+          "type": "button",
+          "text": "Return to workflow",
+          "events": [
+            {
+              "triggers": "actioned",
+              "action": {
+                "type": "json",
+                "src": {
+                  "finish": {
+                    "args": "{var:note}",
+                    "variables": {
+                      "category": "{var:kind}",
+                      "enabled": "{var:on}"
+                    }
+                  }
+                },
+                "variables": {
+                  "note": "{value:message.text}",
+                  "kind": "{value:category.selected.value}",
+                  "on": "{value:enabled.checked}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "spacing": 8
+    }
+  }
+}

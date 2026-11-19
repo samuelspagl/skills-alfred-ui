@@ -1,0 +1,38 @@
+{
+  "bundleid": "example.alfredui.script-action",
+  "window": {
+    "title": "Script Action",
+    "padding": 12,
+    "size": {
+      "width": 640,
+      "height": 420
+    },
+    "root": {
+      "type": "view",
+      "layout": "inline",
+      "components": [
+        {
+          "type": "label",
+          "id": "status",
+          "text": "Ready"
+        },
+        {
+          "type": "button",
+          "text": "Run script",
+          "events": [
+            {
+              "triggers": "actioned",
+              "action": {
+                "type": "script",
+                "src": "scripts/respond.sh",
+                "async": true
+              }
+            }
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "spacing": 8
+    }
+  }
+}

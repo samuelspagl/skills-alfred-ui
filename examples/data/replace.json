@@ -1,0 +1,21 @@
+{
+  "update": {
+    "ids": {
+      "places": {
+        "data": {
+          "modify": {
+            "replace": {
+              "srcmap": {
+                "coast": {
+                  "uid": "coast",
+                  "name.text": "Seaside",
+                  "kind.text": "Outdoor"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

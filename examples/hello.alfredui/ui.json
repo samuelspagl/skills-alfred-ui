@@ -1,0 +1,40 @@
+{
+  "bundleid": "example.alfredui.hello",
+  "window": {
+    "title": "Hello",
+    "padding": 12,
+    "size": {
+      "width": 640,
+      "height": 420
+    },
+    "root": {
+      "type": "view",
+      "layout": "inline",
+      "components": [
+        {
+          "type": "label",
+          "text": "AlfredUI reference examples"
+        },
+        {
+          "type": "button",
+          "text": "Say ready",
+          "events": [
+            {
+              "triggers": "actioned",
+              "action": {
+                "type": "json",
+                "src": {
+                  "speak": {
+                    "text": "The interface is ready."
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "spacing": 8
+    }
+  }
+}

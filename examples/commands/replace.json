@@ -1,0 +1,11 @@
+{
+  "replace": {
+    "retainids": true,
+    "ids": {
+      "heading": {
+        "type": "textfield",
+        "text": "Editable heading"
+      }
+    }
+  }
+}

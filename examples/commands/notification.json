@@ -1,0 +1,9 @@
+{
+  "notification": {
+    "post": {
+      "uid": "example-status",
+      "title": "Status",
+      "text": "Ready for review"
+    }
+  }
+}

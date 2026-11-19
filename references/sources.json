@@ -1,0 +1,572 @@
+{
+  "pages": [
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/copy/",
+      "title": "copy Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "56acf6d07d999194307ed2f435afadb18662a934c6e7fe2412044dc1f7651df5",
+      "declarations": 2,
+      "reference": "references/api/actions--json--copy.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/finish/",
+      "title": "finish Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "8738d84e82dc427168a1601949f778072f09197747621f209986271ea0825593",
+      "declarations": 3,
+      "reference": "references/api/actions--json--finish.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/functions/",
+      "title": "functions Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "d255b09bb36051092ccc4ed1cd9bfbb1ef3ae65f7cd48feb04a69c45e317a3ed",
+      "declarations": 1,
+      "reference": "references/api/actions--json--functions.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/insert/",
+      "title": "insert Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "24c9f46324358c8a5331b97dca21a9a51a9be7896b8d643e2ac50e7b49513694",
+      "declarations": 1,
+      "reference": "references/api/actions--json--insert.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/notification/",
+      "title": "notification Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "ecad39760f2f3a400c18e7a8679915d8a85694e98fbcd7f85bad92fb1f15631c",
+      "declarations": 5,
+      "reference": "references/api/actions--json--notification.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/open/",
+      "title": "open Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "f94db67479c35ba0e4d8c8ef09a3308944d38e2c927a96eaec0219a846758959",
+      "declarations": 2,
+      "reference": "references/api/actions--json--open.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/opendialog/",
+      "title": "opendialog Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "29d02bf688e09235ce0b59ef6ea61aac8fbec4188eea01775694f4c8c50b7b3b",
+      "declarations": 9,
+      "reference": "references/api/actions--json--opendialog.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/popupmenu/",
+      "title": "popupmenu Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "cf3ed89f73c69c9cb6161d2d48fd9c7813a3f6ac9654c718ff06439588d58cc0",
+      "declarations": 2,
+      "reference": "references/api/actions--json--popupmenu.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/remove/",
+      "title": "remove Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "09ca600eac623b6cb69b1fc8109aff0e4a5e22bd37c3239a05b95dfa8df41c0c",
+      "declarations": 1,
+      "reference": "references/api/actions--json--remove.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/replace/",
+      "title": "replace Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "fa0f2ee396c4ca3adf0d503c61240c5d87b27c9b07aab7a9b88e3d712a48bd3c",
+      "declarations": 2,
+      "reference": "references/api/actions--json--replace.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/share/",
+      "title": "share Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "f3c8fb527d404e51f02f209406ff9c226595684a6d14c83bdac9426acd2580f6",
+      "declarations": 2,
+      "reference": "references/api/actions--json--share.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/sheet/",
+      "title": "sheet Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "c5fc5ea425f1cfa14bac2da7dc7b8ee8e4159de26e9aaca33c11e2fee560d430",
+      "declarations": 4,
+      "reference": "references/api/actions--json--sheet.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/sound/",
+      "title": "sound Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "654fcddefdc80e4fdb7da63eb19474135b716249b19f5a362ab3ae3419b3f226",
+      "declarations": 1,
+      "reference": "references/api/actions--json--sound.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/speak/",
+      "title": "speak Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "967b43e48688e902ab044f0e104cda581347db3554c18a03bdfd4fe9d3268851",
+      "declarations": 1,
+      "reference": "references/api/actions--json--speak.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/update/",
+      "title": "update Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "a8fee4da8a2668c03e74a59af9f268c0197dde264c394f0daf53be5800d51a1e",
+      "declarations": 2,
+      "reference": "references/api/actions--json--update.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/window/",
+      "title": "window Action",
+      "retrieved": "2026-11-19",
+      "sha256_html": "f7bd19f92d0247529a69f145dd3e5f943c42ba78b1bde518b6d05327c61954f5",
+      "declarations": 3,
+      "reference": "references/api/actions--json--window.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/json/",
+      "title": "JSON Actions",
+      "retrieved": "2026-11-19",
+      "sha256_html": "dbcf2d764f509c848c8a8831b09bc4e85c7ecd63c67c7d45dd03469b1fd263dc",
+      "declarations": 18,
+      "reference": "references/api/actions--json.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/actions/",
+      "title": "Actions",
+      "retrieved": "2026-11-19",
+      "sha256_html": "002bb4f7371c5cd3d8fa51eb6888dd79fba7e86ed7368aa3f1e2c9e8ca02e78b",
+      "declarations": 6,
+      "reference": "references/api/actions.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/button/",
+      "title": "button Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "a35c9883cc5487ab77fbe45b600e4f948f5b54493060565c7b217676d368a4fb",
+      "declarations": 7,
+      "reference": "references/api/components--button.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/checkbox/",
+      "title": "checkbox Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "c589ba9e01f60d4ed0e9ca29e02aa920477d7117c4579b9e394708f9c2cf6bce",
+      "declarations": 2,
+      "reference": "references/api/components--checkbox.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/dataview/filters/basic/",
+      "title": "basic Filter",
+      "retrieved": "2026-11-19",
+      "sha256_html": "f2a6c9afbd4561c45808db55b182bb9102aaffaaa7e14e45dc674aff62d2b27c",
+      "declarations": 4,
+      "reference": "references/api/components--dataview--filters--basic.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/dataview/filters/",
+      "title": "Data Filters",
+      "retrieved": "2026-11-19",
+      "sha256_html": "83ecb9fbd8e32c8c546203b99807da6484a4c144a7aa71cb76a9f258c29fdc86",
+      "declarations": 0,
+      "reference": "references/api/components--dataview--filters.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/dataview/providers/basic/",
+      "title": "basic Data Provider",
+      "retrieved": "2026-11-19",
+      "sha256_html": "a0e80e9c6d473dd8a37138830962730fc8018ed0407732673c3ff08b084feaec",
+      "declarations": 15,
+      "reference": "references/api/components--dataview--providers--basic.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/dataview/",
+      "title": "dataview Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "99d69484346b8417eb8e4e9fab7d57b0658d7bd1dda7f9732734a100fd508c06",
+      "declarations": 30,
+      "reference": "references/api/components--dataview.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/file/",
+      "title": "file Pseudo-component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "3119fc63fcde00d8e3e74b47a7a67da597c59d48c70823e018a4ff1c181e4030",
+      "declarations": 0,
+      "reference": "references/api/components--file.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/imageview/",
+      "title": "imageview Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "2f980f2ef3a4de54613d7bd1ee98c2486d25faffa3dbbc7f065a742dbef0bf47",
+      "declarations": 5,
+      "reference": "references/api/components--imageview.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/label/",
+      "title": "label Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "8cbb541d1353844cb5d65fd4f421f94595eb57441ed40cf458d4b0d8467cd7cc",
+      "declarations": 6,
+      "reference": "references/api/components--label.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/markdownarea/",
+      "title": "markdownarea Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "0f24d95dbe2b9d5fb5a05519c83509c9250746c00de9470cce60bfc3c6f84647",
+      "declarations": 14,
+      "reference": "references/api/components--markdownarea.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/passwordfield/",
+      "title": "passwordfield Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "1946a04768848a1b80b34c8401a742bc50158462118890c06826e2b65c470122",
+      "declarations": 9,
+      "reference": "references/api/components--passwordfield.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/picker/",
+      "title": "picker Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "559108bb19787d417af2a3897250bcb5a0d083e9eea211e1fbd79783e4394f30",
+      "declarations": 12,
+      "reference": "references/api/components--picker.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/progress/",
+      "title": "progress Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "ccd5f2ccc8175a771657e4a672ccff486d86ed330b959be681df698dabfebe23",
+      "declarations": 5,
+      "reference": "references/api/components--progress.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/shared-properties/",
+      "title": "Shared Properties",
+      "retrieved": "2026-11-19",
+      "sha256_html": "83d603959c0e9fc14c80bfdef7d45f3024602992583b120b6e8611b1638ced87",
+      "declarations": 14,
+      "reference": "references/api/components--shared-properties.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/textarea/",
+      "title": "textarea Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "aabfc17e19e28da987fe2efc912ede89524cccf8a22d2f34a245b07b84dc7970",
+      "declarations": 19,
+      "reference": "references/api/components--textarea.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/textfield/",
+      "title": "textfield Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "fa654f7b8cbb1c3daf280f3f49574a1693214673b5a796fa2d3248d1166681c0",
+      "declarations": 15,
+      "reference": "references/api/components--textfield.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/view/",
+      "title": "view Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "46063a1c86a09f605e3b88ffdfc220eb5b5004eabb0a530cd3f47e66f304b00f",
+      "declarations": 14,
+      "reference": "references/api/components--view.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/webkitview/",
+      "title": "webkitview Component",
+      "retrieved": "2026-11-19",
+      "sha256_html": "0fa96707b245807de248943dbe02c9274e36cb6f9c7ce1b1bae985330a3f65cc",
+      "declarations": 6,
+      "reference": "references/api/components--webkitview.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/components/",
+      "title": "Alfred UI Components",
+      "retrieved": "2026-11-19",
+      "sha256_html": "ebe1818685ff902d144ffeeb942385d81ac017a8baa924dceb67dd66335a5d51",
+      "declarations": 0,
+      "reference": "references/api/components.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/debug/",
+      "title": "Debug",
+      "retrieved": "2026-11-19",
+      "sha256_html": "bdd7ee4ef3699c4c471f038fdfdaf9b9e35e7b4d19c601685f956be93d32f93a",
+      "declarations": 2,
+      "reference": "references/api/debug.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/events/",
+      "title": "Events",
+      "retrieved": "2026-11-19",
+      "sha256_html": "f9f8a4de8cff1d94a1ae282a06e3ca1a4383d5d1de27b8f7e35f8d8aa92538dd",
+      "declarations": 8,
+      "reference": "references/api/events.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/border/",
+      "title": "border Layout",
+      "retrieved": "2026-11-19",
+      "sha256_html": "2c7f4223fea0d09f1e7060ac65a9824eea0e44ddfe24c7cbed9dadced3bb0dc7",
+      "declarations": 3,
+      "reference": "references/api/layouts--border.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/constraints/",
+      "title": "Constraints",
+      "retrieved": "2026-11-19",
+      "sha256_html": "df561d7656231b89a59aa1bd1bfb4180a8ae95a1bf1cf1a0534b3c5538f7fbbd",
+      "declarations": 18,
+      "reference": "references/api/layouts--constraints.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/flex/",
+      "title": "flex Layout",
+      "retrieved": "2026-11-19",
+      "sha256_html": "bb0e7da9349da2b2f403da20279e9ab126c96589f092858181de3d202a1e0778",
+      "declarations": 11,
+      "reference": "references/api/layouts--flex.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/form/",
+      "title": "form Layout",
+      "retrieved": "2026-11-19",
+      "sha256_html": "abb39b806bfe5a3c8db8162fdf8a00a7c7d705f54b9efc7c8a8fe9f7bba71c4e",
+      "declarations": 2,
+      "reference": "references/api/layouts--form.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/grid/",
+      "title": "grid Layout",
+      "retrieved": "2026-11-19",
+      "sha256_html": "3616d6e7dc0c4896c878da475de40a31980043568a618ce06263872244b79098",
+      "declarations": 4,
+      "reference": "references/api/layouts--grid.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/inline/",
+      "title": "inline Layout",
+      "retrieved": "2026-11-19",
+      "sha256_html": "d7b4c8c788991bdab17f7ec2485ccce459c804e13cc87f2e58c734c058dfad6a",
+      "declarations": 3,
+      "reference": "references/api/layouts--inline.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/stack/",
+      "title": "stack Layout",
+      "retrieved": "2026-11-19",
+      "sha256_html": "b0f1016ce3210ae0d2c7f1d30312b0629a085d500b92a7a8012185aa037700fd",
+      "declarations": 1,
+      "reference": "references/api/layouts--stack.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/layouts/",
+      "title": "Layouts",
+      "retrieved": "2026-11-19",
+      "sha256_html": "ff30dee7cbbf73110f9034a24e47f1a6d05f3797566577d8906f82ea7f738dbb",
+      "declarations": 0,
+      "reference": "references/api/layouts.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/log/",
+      "title": "Log",
+      "retrieved": "2026-11-19",
+      "sha256_html": "0562225abf3467e9c71c85632fec1b5f4719ac09846f35c7ebc887fa728ebb5c",
+      "declarations": 6,
+      "reference": "references/api/log.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/placeholders/",
+      "title": "Placeholders",
+      "retrieved": "2026-11-19",
+      "sha256_html": "e12f68d931441d8ce519cc82735d21b78976c6ba14b0ebf9cd56e21269714b57",
+      "declarations": 0,
+      "reference": "references/api/placeholders.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/properties/colour/",
+      "title": "COLOUR Property Type",
+      "retrieved": "2026-11-19",
+      "sha256_html": "6d8d4e7e95a44d9da80c6ace0f30d1f56506c5f61d389da2b92198dd326a46ad",
+      "declarations": 0,
+      "reference": "references/api/properties--colour.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/properties/font/",
+      "title": "FONT Property Type",
+      "retrieved": "2026-11-19",
+      "sha256_html": "63c1406e611fd5e8e275a348d199c7fe63932fdfde2131a9c060be7527b6ef6a",
+      "declarations": 4,
+      "reference": "references/api/properties--font.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/properties/getters/",
+      "title": "Getters",
+      "retrieved": "2026-11-19",
+      "sha256_html": "50aa88aa421992c585588d2459b8560ebf27e702156bb27f4d02d01adc604be8",
+      "declarations": 0,
+      "reference": "references/api/properties--getters.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/properties/image/",
+      "title": "IMAGE Property Type",
+      "retrieved": "2026-11-19",
+      "sha256_html": "98ab6f90f97f52dda3d00c1eb863422fbfd5fc8b457aa0229b9406f23d6ab654",
+      "declarations": 5,
+      "reference": "references/api/properties--image.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/properties/menu/",
+      "title": "MENU Property Type",
+      "retrieved": "2026-11-19",
+      "sha256_html": "17128918d9f6f900228fa20f8d63c1376e0a7e570da554d9a301585fe4345f9a",
+      "declarations": 5,
+      "reference": "references/api/properties--menu.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/properties/shortcut/",
+      "title": "SHORTCUT Property Type",
+      "retrieved": "2026-11-19",
+      "sha256_html": "df585d8772be237d24e8a3bf15b27f9be71918fc5dc2655de9fcdf338a3de955",
+      "declarations": 2,
+      "reference": "references/api/properties--shortcut.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/properties/",
+      "title": "Properties",
+      "retrieved": "2026-11-19",
+      "sha256_html": "0420581787b3caedda63152b706f1538f373f1123a311a592b2ba00260e912b9",
+      "declarations": 0,
+      "reference": "references/api/properties.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/pulse/",
+      "title": "Pulse",
+      "retrieved": "2026-11-19",
+      "sha256_html": "d23131c4dbbe3c15285bc810374e9555b73216db198b7050ce49aed7ea30d40a",
+      "declarations": 5,
+      "reference": "references/api/pulse.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/structure/",
+      "title": ".alfredui Folder Structure",
+      "retrieved": "2026-11-19",
+      "sha256_html": "6db0cdc2fdd6b2f7b96014e06cfad5e81f0e9803eaf2e50a593039c7bcc6e21f",
+      "declarations": 0,
+      "reference": "references/api/structure.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/templates/",
+      "title": "Templates",
+      "retrieved": "2026-11-19",
+      "sha256_html": "46b494fc1a9df1bebd2a8256d18eef75c9cd38ef356a9d5c4a4b9ea3907a983a",
+      "declarations": 2,
+      "reference": "references/api/templates.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/colour-search/",
+      "title": "Colour Search Alfred UI Tutorial",
+      "retrieved": "2026-11-19",
+      "sha256_html": "8c2ef6a118c56b6bf7e0c5c08523282d4df33fc7986bc1b2312ff4c53381207a",
+      "declarations": 0,
+      "reference": "references/api/tutorials--colour-search.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/sound-board/",
+      "title": "Sound Board Alfred UI Tutorial",
+      "retrieved": "2026-11-19",
+      "sha256_html": "e157d46a10e2ca4b5e83426769d4d6b7c3cf3ee7d2dbf783014c5e6b6c71f067",
+      "declarations": 0,
+      "reference": "references/api/tutorials--sound-board.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/speak-the-text/",
+      "title": "Speak the Text Alfred UI Tutorial",
+      "retrieved": "2026-11-19",
+      "sha256_html": "f9bcc6e8e2512bfd2b7860a246997fffe04a9016c781fbe07b93b951c9cc00ed",
+      "declarations": 0,
+      "reference": "references/api/tutorials--speak-the-text.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/text-to-markdown/",
+      "title": "Text to Markdown Alfred UI Tutorial",
+      "retrieved": "2026-11-19",
+      "sha256_html": "5c912ce131b85a09e22eb6a70f8df90b85e0908a965bbef0386974ba18aaa2d6",
+      "declarations": 0,
+      "reference": "references/api/tutorials--text-to-markdown.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/web-browser/",
+      "title": "Web Browser Alfred UI Tutorial",
+      "retrieved": "2026-11-19",
+      "sha256_html": "1be55f42b49490f6c5a74677c49c594ab979e01251a7011ff3d5f55ce00ed2d0",
+      "declarations": 0,
+      "reference": "references/api/tutorials--web-browser.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/tutorials/",
+      "title": "Alfred UI Tutorials",
+      "retrieved": "2026-11-19",
+      "sha256_html": "bb86a6e82c1a396f406dcdc876cb3e1fe4ec63e00a2bda05ef3779236a39407d",
+      "declarations": 0,
+      "reference": "references/api/tutorials.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/ui-json/",
+      "title": "ui.json",
+      "retrieved": "2026-11-19",
+      "sha256_html": "d4b8e9a6e49778881f5244ec0801f345d629d690b8b020e8e0d597e21a215fce",
+      "declarations": 9,
+      "reference": "references/api/ui-json.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/variables/",
+      "title": "Variables",
+      "retrieved": "2026-11-19",
+      "sha256_html": "c0950e536c5b0eed2ef7f08392c4a6a38f268b2d5e6c8763af6c39ed3618339e",
+      "declarations": 4,
+      "reference": "references/api/variables.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/window/",
+      "title": "Window",
+      "retrieved": "2026-11-19",
+      "sha256_html": "72993b8a592b8c52ab84557d6d7ea60b856b0860f58bdb4b0a89573bb28ca281",
+      "declarations": 32,
+      "reference": "references/api/window.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/alfredui/",
+      "title": "Alfred UI",
+      "retrieved": "2026-11-19",
+      "sha256_html": "b3ae68455b53f0af35518c1a72cd41797cf9efc24d3b80d966cccd75fb5584ef",
+      "declarations": 0,
+      "reference": "references/api/alfredui.md"
+    },
+    {
+      "url": "https://www.alfredapp.com/help/workflows/user-interface/alfredui/",
+      "title": "Alfred UI",
+      "retrieved": "2026-11-19",
+      "sha256_html": "2cb8498131e7f18b7af3cce020c85fc4a345d97c6d851292af03c9d2d2438482",
+      "declarations": 0,
+      "reference": "references/api/workflows--user-interface--alfredui.md"
+    }
+  ],
+  "failed_links": [
+    "https://www.alfredapp.com/help/alfredui/components/providers/basic/",
+    "https://www.alfredapp.com/help/alfredui/constraints/",
+    "https://www.alfredapp.com/help/alfredui/shared-properties/",
+    "https://www.alfredapp.com/help/alfredui/view/",
+    "https://www.alfredapp.com/help/alfredui/border/",
+    "https://www.alfredapp.com/help/alfredui/json/"
+  ]
+}

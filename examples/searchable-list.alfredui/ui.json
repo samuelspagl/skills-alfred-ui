@@ -1,0 +1,99 @@
+{
+  "bundleid": "example.alfredui.searchable-list",
+  "window": {
+    "title": "Searchable List",
+    "padding": 12,
+    "size": {
+      "width": 640,
+      "height": 420
+    },
+    "root": {
+      "type": "view",
+      "layout": "border",
+      "components": [
+        {
+          "type": "textfield",
+          "id": "query",
+          "placeholder": "Search places",
+          "focus": true,
+          "events": [
+            {
+              "triggers": "changed",
+              "action": {
+                "type": "function",
+                "src": "places",
+                "args": "filterdata"
+              }
+            }
+          ],
+          "constraints": {
+            "region": "top"
+          }
+        },
+        {
+          "type": "dataview",
+          "id": "places",
+          "cell": {
+            "height": 60,
+            "init": {
+              "row.background": null,
+              "name.colour": "labelColor"
+            },
+            "selected": {
+              "row.background": "alfredSelectedResultBackgroundColor",
+              "name.colour": "alfredSelectedResultTextColor"
+            },
+            "root": {
+              "type": "view",
+              "layout": "inline",
+              "components": [
+                {
+                  "type": "label",
+                  "id": "name"
+                },
+                {
+                  "type": "label",
+                  "id": "kind",
+                  "colour": "secondaryLabelColor"
+                }
+              ],
+              "id": "row",
+              "direction": "vertical",
+              "padding": 8
+            }
+          },
+          "data": {
+            "type": "basic",
+            "src": [
+              {
+                "uid": "coast",
+                "name.text": "Coast",
+                "kind.text": "Outdoor",
+                "search": "coast beach outdoor"
+              },
+              {
+                "uid": "library",
+                "name.text": "Library",
+                "kind.text": "Indoor",
+                "search": "library books indoor"
+              }
+            ],
+            "filter": {
+              "type": "basic",
+              "args": [
+                "search",
+                "name.text"
+              ],
+              "match": "{value:query.text}",
+              "matchmode": "wordmatchanyorder"
+            }
+          },
+          "constraints": {
+            "region": "centre"
+          }
+        }
+      ],
+      "spacing": 8
+    }
+  }
+}
