@@ -26,6 +26,36 @@ Based on the [official AlfredUI technical documentation](https://www.alfredapp.c
 
 ## Installation
 
+### With the Skills CLI (recommended)
+
+```sh
+npx skills add samuelspagl/skills-alfred-ui --skill alfred-ui
+```
+
+Or use Bun's package runner:
+
+```sh
+bunx skills add samuelspagl/skills-alfred-ui --skill alfred-ui
+```
+
+The CLI installs to the current project by default. Add `-g` for a global installation or `-a <agent>` to select a supported agent. Preview discovery without installing:
+
+```sh
+npx skills add samuelspagl/skills-alfred-ui --list
+```
+
+The repository's root `SKILL.md` is discovered automatically; no separate npm publication is needed. The current Skills CLI documents Node.js 22.20 or later. Bun normally honors Node shebangs; to use Bun's runtime explicitly, run:
+
+```sh
+bunx --bun skills add samuelspagl/skills-alfred-ui --skill alfred-ui
+```
+
+Discovery was verified against this public repository using `bunx --bun skills@latest add samuelspagl/skills-alfred-ui --list`, which found the `alfred-ui` skill. This was a discovery check, not an installation into a user's agent configuration.
+
+Sources: [Skills installation options](https://github.com/vercel-labs/skills/blob/main/docs/commands.md#skills-add), [skill discovery](https://github.com/vercel-labs/skills/blob/main/docs/creating-skills.md#skill-discovery), [runtime requirements](https://github.com/vercel-labs/skills#install-a-skill), and [Bun's bunx documentation](https://bun.sh/docs/pm/bunx).
+
+### Manual installation
+
 Clone this repository into a directory named `alfred-ui` in your agent's configured skills directory:
 
 ```sh
